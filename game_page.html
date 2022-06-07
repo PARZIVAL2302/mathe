@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title id="title_tt">
+        Mathematics Quizzzz
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="game_login.css">
+
+</head>
+<body style="background: rgb(31, 151, 151);">
+
+    
+<h4 id="player1_name"></h4>
+<span id="player1_score"></span>
+<br>
+<h4 id="player2_name"></h4>
+<span id="player2_score"></span>
+
+<div class="container">
+    <center>
+        <h2 style="color: rgb(25, 12, 4); background-color: rgb(26, 178, 163); border-radius: 30px;">The Mathematics Quizzzz</h2>
+    </center>    
+</div>
+
+<div align="center">
+    <b>
+    <span id="player_question" style="font-size: 20px; font-family: sans-serif;"></span>
+    <br>
+    <br>
+    <span id="player_answer" style="font-size:20px; font-family: sans-serif;"></span>
+    </b>
+</div>
+
+
+<div id="output" style="background-color:deepskyblue; border-radius: 27.8px; text-align: center; float: none; font-size: 20px;">
+<h3>
+    Number 1
+</h3>
+<input type="number" id="number_1" placeholder="Number 1" style="border-radius: 30px;">
+
+<br>
+<br>
+
+<h3>
+    Number 2
+</h3>
+<input type="number" id="number_2" placeholder="Number 2" style="border-radius: 30px;">
+
+<br><br>
+
+<button id="button_send" class="btn btn-danger" onclick="send()"> Send </button>
+</div>
+
+
+    <script src="game_page.js"></script>   
+</body>
